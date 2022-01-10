@@ -1,3 +1,5 @@
+[![Testing Github Actions](https://github.com/Sahil1709/workflows-starter-template/actions/workflows/test.yml/badge.svg)](https://github.com/Sahil1709/workflows-starter-template/actions/workflows/test.yml)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
