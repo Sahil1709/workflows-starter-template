@@ -1,8 +1,8 @@
 name: Testing Github Actions
 on: [push]
 jobs:
-  print-hello-world:
-	  runs-on: ubuntu-latest
-	  steps:
-      - run: echo "Hello World"
-      - run: echo "Step no 2"
+  print-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
+      - run: echo "Sequential job 2"
