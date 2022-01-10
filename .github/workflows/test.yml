@@ -6,3 +6,8 @@ jobs:
     steps:
       - run: echo "hello world"
       - run: echo "Sequential job 2"
+  print-author:
+    runs-on: linux
+    steps:
+      - run: uname
+      - run: ifconfig
