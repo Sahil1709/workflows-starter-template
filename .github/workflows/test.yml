@@ -1,13 +1,8 @@
 name: Testing Github Actions
 on: [push]
 jobs:
-  print-hello:
+  build-app:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello world"
-      - run: echo "Sequential job 2"
-  print-author:
-    runs-on: ubuntu-latest
-    steps:
-      - run: uname
-      - run: ifconfig
+      - uses: actions/checkout
+      - run: tree
