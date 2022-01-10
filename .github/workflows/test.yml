@@ -1,3 +1,8 @@
-name: Test yaml file
-author: Sahil Gupta
-# testing
+name: Testing Github Actions
+on: [push]
+jobs:
+  print-hello-world:
+	runs-on: ubuntu-latest
+	steps:
+	    - run: echo "Hello World"
+      - run: echo "Step no 2"
